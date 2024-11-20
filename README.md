@@ -13,8 +13,12 @@ Used for state locking and consistency checking. DynamoDB's conditional writes e
 
 Using Terraform backend S3 and DynamoDB can help ensure that infrastructure is consistently managed, even in a team environment. Benefits of using a remote backend include:
 
-**Collaboration**: Enables collaboration between team members
-**Versioning:** Versioning state files
-**History of changes:** Provides a history of changes which can help with troubleshooting and auditing
-**Remote state locking:** Prevents conflicts and ensures consistency 
+**Collaboration**: 
+Enables collaboration between team members
+**Versioning:** 
+Versioning state files
+**History of changes:**
+Provides a history of changes which can help with troubleshooting and auditing
+**Remote state locking:**
+Prevents conflicts and ensures consistency 
 
